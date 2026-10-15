@@ -1,0 +1,22 @@
+# Chỉ cho phép đúng các file của solution, chặn mọi thứ khác ở thư mục gốc
+/*
+!/.gitignore
+!/MFPDNC.sln
+!/Schema.ini
+!/MFPDNC/
+!/CalloutTester/
+
+# Kết quả build
+bin/
+obj/
+
+# Thiết lập cá nhân của Visual Studio
+.vs/
+*.suo
+*.user
+
+# Chứng chỉ ký (khóa bí mật)
+*.pfx
+
+# File sao lưu
+*.bak
